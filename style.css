@@ -1,0 +1,42 @@
+input {
+    width: 200px;
+    height: 56px;
+    background-color: rgb(175, 219, 255);
+    border: none;
+    font-size: 44px;
+    padding: 8px;
+    margin-top: 20px;
+}
+button {
+    margin: 10px;
+    width: 140px;
+    height: 50px;
+    padding: 12px;
+    font-size: 14px;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(0, 0, 0);
+    background-color: rgb(99, 185, 255);
+    border: none;
+    font-weight: bold;
+    letter-spacing: 0.06cm;
+    margin-top: 20px;
+
+}
+button:hover, input:hover {
+    background-color: rgb(120, 194, 255);
+    color: aliceblue;
+    transition: all 0.5s;
+}
+#demo, #demo1, #demo2 {
+    font-size: 17px;
+    color: rgb(255, 255, 255);
+}
+.container {
+    height: 210px;
+}
+.display-2 {
+    color: aliceblue;
+    background-color: rgb(20, 1, 128);
+    margin: 5px;
+    padding: 15px;
+}
